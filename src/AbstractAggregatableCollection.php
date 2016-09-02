@@ -2,6 +2,8 @@
 
 namespace Dhii\Stats;
 
+use Dhii\Collection;
+
 /**
  * Common functionality for collections that can be aggregated.
  *
@@ -9,7 +11,7 @@ namespace Dhii\Stats;
  *
  * @since [*next-version*]
  */
-abstract class AbstractAggregatableCollection extends AbstractIterableCollection
+abstract class AbstractAggregatableCollection extends Collection\AbstractIterableCollection
 {
     protected $stats;
     protected $statAggregator;
