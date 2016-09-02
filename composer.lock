@@ -13,7 +13,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-abstract-base.git",
-                "reference": "4adddd90abf9f072313eb8bf76f8d4202d50f897"
+                "reference": "15693304a93988cb780afb2c0b1ddc7ff280e01f"
             },
             "require": {
                 "dhii/collections-interface": "dev-master"
@@ -24,7 +24,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Dhii\\Collections\\": "src/"
+                    "Dhii\\Collection\\": "src/"
                 }
             },
             "license": [
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Collection base classes that do not depend on other non-collection packages, on which there is a dependency of other collection packages that depend on this package. This is done to avoid circular reference in the collection toolchain",
-            "time": "2016-09-02 16:11:18"
+            "time": "2016-09-02 17:08:53"
         },
         {
             "name": "dhii/collections-interface",
