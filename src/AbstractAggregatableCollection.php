@@ -21,7 +21,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
      *
      * @since [*next-version*]
      *
-     * @return Stats\AggregatorInterface
+     * @return AggregatorInterface
      */
     protected function _getStatAggregator()
     {
@@ -33,11 +33,11 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
      *
      * @since [*next-version*]
      *
-     * @param Stats\AggregatorInterface $aggregator The stats aggregator for this instance to use.
+     * @param AggregatorInterface $aggregator The stats aggregator for this instance to use.
      *
      * @return AbstractResultSet This instance.
      */
-    protected function _setStatAggregator(Stats\AggregatorInterface $aggregator)
+    protected function _setStatAggregator(AggregatorInterface $aggregator)
     {
         $this->statAggregator = $aggregator;
 
