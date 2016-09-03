@@ -13,7 +13,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-abstract-base.git",
-                "reference": "15693304a93988cb780afb2c0b1ddc7ff280e01f"
+                "reference": "bd52fe7bb1abcf9c01ae834d9de130e8536fabd3"
             },
             "require": {
                 "dhii/collections-interface": "dev-master"
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Collection base classes that do not depend on other non-collection packages, on which there is a dependency of other collection packages that depend on this package. This is done to avoid circular reference in the collection toolchain",
-            "time": "2016-09-02 17:08:53"
+            "time": "2016-09-03 07:32:49"
         },
         {
             "name": "dhii/collections-interface",
@@ -45,7 +45,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-interface.git",
-                "reference": "b4b9daf92ecf7cecc47bfcc963799dfb9e25e412"
+                "reference": "55a10ffeb913405f56289ff134bfcc70b0fb803f"
             },
             "require-dev": {
                 "dhii/php-cs-fixer-config": "dev-master"
@@ -53,7 +53,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Dhii\\Collections\\": "src/"
+                    "Dhii\\Collection\\": "src/"
                 }
             },
             "license": [
@@ -66,7 +66,7 @@
                 }
             ],
             "description": "Interfaces for collections",
-            "time": "2016-09-02 14:07:55"
+            "time": "2016-09-03 07:06:19"
         },
         {
             "name": "dhii/stats-interface",
