@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de2858135432b5eb391229cf0ec086c8",
-    "content-hash": "d17513baa231e76da8402d8d155b825d",
+    "hash": "e11ad7ae7c2caa74c787ac8114232a1c",
+    "content-hash": "d8abb8a993f46ae6f90651c15e5e16ac",
     "packages": [
         {
             "name": "dhii/collections-abstract-base",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-abstract-base.git",
-                "reference": "7f6bef8cad88b49a80ee557dd7a0e273724be935"
+                "reference": "d794b04dd3077d0351930693ceeb8c140100091d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/collections-abstract-base/zipball/7f6bef8cad88b49a80ee557dd7a0e273724be935",
-                "reference": "7f6bef8cad88b49a80ee557dd7a0e273724be935",
+                "url": "https://api.github.com/repos/Dhii/collections-abstract-base/zipball/d794b04dd3077d0351930693ceeb8c140100091d",
+                "reference": "d794b04dd3077d0351930693ceeb8c140100091d",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 }
             ],
             "description": "Collection base classes that do not depend on other non-collection packages, on which there is a dependency of other collection packages that depend on this package. This is done to avoid circular reference in the collection toolchain",
-            "time": "2016-09-23 13:33:49"
+            "time": "2016-09-23 15:22:43"
         },
         {
             "name": "dhii/collections-interface",
