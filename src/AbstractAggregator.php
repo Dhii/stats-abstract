@@ -16,7 +16,10 @@ abstract class AbstractAggregator implements AggregatorInterface
      *
      * @since [*next-version*]
      *
-     * @param mixed[]              $totals Current totals.
+     * @param mixed[]              $totals Current totals. Totals will only be aggregated for codes contained here.
+     *                                     This allows adding new totals to existing ones.
+     *                                     For totals that don't yet exist, it's possible to specify them as values. Example:
+     *                                     `array('existing_total' => 123, 'other_new_total')`
      * @param mixed[]|\Traversable $items  The items, which to aggregate from.
      *
      * @return mixed[] The new totals.
