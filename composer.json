@@ -15,33 +15,13 @@
         "dhii/collections-abstract-base": "dev-master"
     },
     "require-dev": {
-        "dhii/php-cs-fixer-config": "dev-master"
+        "dhii/php-cs-fixer-config": "dev-php-5.3",
+        "phpunit/phpunit": "^4.8",
+        "ptrofimov/xpmock": "^1.1"
     },
     "autoload": {
         "psr-4": {
             "Dhii\\Stats\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "url": "https://github.com/Dhii/php-cs-fixer-config.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/Dhii/stats-interface.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/Dhii/collections-interface.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/Dhii/collections-abstract.git",
-            "type": "git"
-        },
-        {
-            "url": "https://github.com/Dhii/collections-abstract-base.git",
-            "type": "git"
-        }
-    ]
+    }
 }
