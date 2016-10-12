@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "72d90bf8fa91c6ba69fb5badbb2525b6",
-    "content-hash": "f11ff2f56ff45ef025a698219cc0383c",
+    "hash": "d29e8134699719c92ae97de1ff26b6fb",
+    "content-hash": "034154382d734c29e4b39d364f3d7ad1",
     "packages": [
         {
             "name": "dhii/collections-abstract-base",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-abstract-base.git",
@@ -92,7 +92,7 @@
         },
         {
             "name": "dhii/stats-interface",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/stats-interface.git",
