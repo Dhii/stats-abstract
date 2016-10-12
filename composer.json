@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "dhii/stats-interface": "dev-master",
-        "dhii/collections-abstract-base": "dev-develop"
+        "dhii/collections-abstract-base": "dev-master"
     },
     "require-dev": {
         "dhii/php-cs-fixer-config": "dev-php-5.3"
