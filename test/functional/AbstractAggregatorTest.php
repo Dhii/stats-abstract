@@ -5,12 +5,12 @@ namespace Dhii\Stats\FuncTest;
 /**
  * Tests {@see \Dhii\Stats\AbstractAggregator}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class AbstractAggregatorTest extends \Xpmock\TestCase
 {
     /**
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Dhii\Stats\AbstractAggregator
      */
@@ -30,7 +30,7 @@ class AbstractAggregatorTest extends \Xpmock\TestCase
     /**
      * Tests that the aggregation of stats happens according to defined rules.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testAggregation()
     {

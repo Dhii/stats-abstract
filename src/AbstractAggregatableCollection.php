@@ -9,7 +9,7 @@ use Dhii\Collection;
  *
  * Aggregation is the process of producing totals from the elements of a collection.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 abstract class AbstractAggregatableCollection extends Collection\AbstractIterableCollection
 {
@@ -19,7 +19,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
     /**
      * Retrieve the instance of the stat aggregator which will aggregate stats for this instance.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return AggregatorInterface
      */
@@ -31,7 +31,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
     /**
      * Sets the stats aggregator to be used by this instance for calculating totals.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param AggregatorInterface $aggregator The stats aggregator for this instance to use.
      *
@@ -49,7 +49,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
      *
      * Operates on raw values, no cache is generated.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string|null $code The code of the stat, the value for which to retrieve.
      *                          If null, retrieve all stats.
@@ -73,7 +73,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
      *
      * Assigns all values in one go, or one at a time.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed[]|string $stats An map of stat names to stat values, or a stat code.
      * @param mixed          $value If a stat code is specified, its value will be set to this.
@@ -102,7 +102,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
      *
      * After this, retrieval of a stat value will trigger generation of cache.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return AbstractAggregatableCollection This instance.
      */
@@ -116,7 +116,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
     /**
      * Retrieve codes for stats that should be aggregated from this collection's items.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return string[] An array of stat codes.
      */
@@ -130,7 +130,7 @@ abstract class AbstractAggregatableCollection extends Collection\AbstractIterabl
      *
      * If no cached values available, triggers their generation.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string|null $code The code, for which to retrieve the stat value.
      *                          If null, all stats will be retrieved.

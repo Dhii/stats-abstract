@@ -7,14 +7,14 @@ use RuntimeException;
 /**
  * Common functionality for stats aggregators.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 abstract class AbstractAggregator implements AggregatorInterface
 {
     /**
      * {@inheritdoc}
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed[]              $totals Current totals. Totals will only be aggregated for codes contained here.
      *                                     This allows adding new totals to existing ones.
@@ -44,7 +44,7 @@ abstract class AbstractAggregator implements AggregatorInterface
      * becomes
      * `array('my_stat' => 123, 'other_stat' => null)`
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed[] $totals The totals to normalize.
      *
@@ -69,7 +69,7 @@ abstract class AbstractAggregator implements AggregatorInterface
     /**
      * Aggregates stats by applying appropriate calculators to all items.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed[]              $totals      Existing totals map, where key is stat name, and value is stat value.
      * @param mixed[]|\Traversable $items       A list of items to aggregate stats from.
@@ -97,7 +97,7 @@ abstract class AbstractAggregator implements AggregatorInterface
     /**
      * Retrieve a map of available calculators.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return callable[] A map of calculators, where key is stat code, and value is a callable calculator.
      */
@@ -109,7 +109,7 @@ abstract class AbstractAggregator implements AggregatorInterface
     /**
      * Aggregate a specific stat using an aggregator.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed[]      $totals     Current totals. Keys are stat names, values are stat values.
      * @param string       $stat       The code of the stat to aggregate.
@@ -126,7 +126,7 @@ abstract class AbstractAggregator implements AggregatorInterface
     /**
      * Apply a stat aggregator to a set of totals.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed[]      $totals     Current totals. Keys are stat names, values are stat values.
      * @param string       $stat       The code of the stat to aggregate.
