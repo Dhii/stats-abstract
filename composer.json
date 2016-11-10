@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "dhii/stats-interface": "dev-develop",
-        "dhii/collections-abstract-base": "dev-develop"
+        "dhii/stats-interface": "^0.1.0",
+        "dhii/collections-abstract-base": "^0.1.0"
     },
     "require-dev": {
         "dhii/php-cs-fixer-config": "dev-php-5.3",
